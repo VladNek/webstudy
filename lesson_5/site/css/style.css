@@ -1,0 +1,80 @@
+body{
+ background-color:mediumpurple;
+}
+.text{
+ font-weight: bold;
+ text-decoration: underline;
+ color: rgba(200, 200, 100, 0.5)
+}
+.text1{
+ text-indent: 30px;
+border: 3px dotted #ff4f00;
+padding: 10px 20px 10px 20px;
+margin: 20px auto;
+width: 400px;
+color:blue
+}
+.text2{
+ text-indent: 30px;
+border: 7px groove #ff4f00;
+padding: 10px 20px 10px 20px;
+margin: 20px auto;
+width: 400px;
+color: aqua;
+}
+.text3{
+ border-radius: 10px;
+box-shadow: 0 0 0 3px #ff4f00,
+0 0 0 7px #ffdb00,
+0 0 0 10px #00ffa2;
+text-indent: 30px;
+padding: 10px 20px 10px 20px;
+margin: 20px auto;
+width: 400px;
+color: yellowgreen;
+}
+.text4{
+ border-radius: 10px;
+box-shadow: 0 0 0 3px #ff4f00;
+text-indent: 30px;
+padding: 10px 20px 10px 20px;
+margin: 20px auto;
+width: 400px;
+}
+.text5{
+ border: 2px solid #ffff00;
+ padding: 10px 20px 10px 20px;
+ margin: 20px auto;
+ width: 400px;
+}
+.text6{
+ border-radius: 10px;
+ box-shadow: 0 0 0 4px #ff4f00;
+ text-indent: 30px;
+ padding: 10px 40px 20px 10px;
+ margin: 20px auto;
+ width: 400px;
+ }
+ .text6:hover{
+ border-radius: 20px;
+ box-shadow: 0 0 0 4px #00ff62;
+ text-indent: 30px;
+ padding: 10px 40px 20px 10px;
+ margin: 20px auto;
+ width: 400px;
+ }
+.text6{
+  font-size: 50px;
+  color: #000;
+  padding-left: 10px;
+ }
+ .text6 span {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
+  padding: 0 10px 0 0;
+  color: #FFFFFF;
+  line-height: 14px;
+  font-size: 45px;
+ }
+
