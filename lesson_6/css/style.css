@@ -1,0 +1,43 @@
+
+.box{
+ width: 1000px;
+ height: 1000px;
+ margin: 50px auto;
+ background-color: yellow;
+ position:relative;
+}
+.box img{
+ position:absolute;
+ width: 50%;
+ height: 500px;
+ left: 0;
+ top: 50%;
+ transform: translate(0,-50%);
+ margin: 50px;
+} 
+.box__block{
+ display: inline-block;
+ position: absolute;
+ width: 40%;
+ height: 500px;
+ right: 0;
+ top: 50%;
+ transform: translate(0,-50%);
+ margin: 50px 20px;
+}
+.box__block p{
+ display: inline-block;
+}
+.box__block button{
+ display: block;
+ background-color:blue;
+ color: #fff;
+ padding: 10px;
+ font-size: 16px;
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+}
+.box__block button:hover{
+ color: gold;
+ background-color: #fff;
+}
