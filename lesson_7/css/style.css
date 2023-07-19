@@ -1,0 +1,41 @@
+
+.block{
+ display: flex;
+ border: 1px solid;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ align-content: space-around;
+ width: 90%;
+ height: 700px;
+ background-color:thistle;
+ margin: auto;
+}
+
+.element-1{
+ display: flex;
+ width: 50px;
+ height: 100px;
+ margin: auto;
+}
+.element-2{
+ display: flex;
+ width: 50px;
+ height: 100px;
+ margin: auto;
+}
+.element-3{
+ display: flex;
+ width: 50px;
+ height: 100px;
+ margin: auto;
+}
+.element-4{
+ display: flex;
+ width: 50px;
+ height: 100px;
+ margin: auto; 
+ align-self: flex-start;
+}
+
+   
